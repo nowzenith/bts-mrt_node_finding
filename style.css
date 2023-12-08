@@ -1,0 +1,35 @@
+#circle-container {
+    position: relative;
+    width: 600px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+}
+
+.circle-node {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Indicates the node is clickable */
+}
+
+.connection-line {
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    transform-origin: 0 0;
+}
+
+#results {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
